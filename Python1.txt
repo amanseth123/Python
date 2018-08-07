@@ -1,0 +1,19 @@
+1. print("Hello I am Aman Seth completing my Python assignment !!")
+2. print("Aaman"+"Seth")
+
+3. y=input()
+x = input()
+z = int input()
+print("Hello my name is {} {} and I am {} years Old!!"%(y,x,z) )
+
+4. print(' "Let's get Started " ')
+
+5. s="Acadview"
+  course = "Python"
+fee = 5000
+print("I am  studying {} at {} and the fee is {}"%(course,s,fee) )
+
+6.  Let’s do some interesting exercise:
+name=”Tony Stark”
+salary=1000000
+print(‘%s’’%d’)%(name ,salary)

@@ -1,0 +1,6 @@
+git init
+git status
+git -m commit "commiting file"
+git add abcd.txt
+git remote add origin "github project link "
+github push origin master
