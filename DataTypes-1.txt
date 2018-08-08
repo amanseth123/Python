@@ -1,0 +1,9 @@
+1. x = ["aman","seth",1998]
+2. x.append([‘google’,’apple’,’facebook’,’microsoft’,’tesla’])
+3. x.count("aman")
+4. y = [1,6,8,3,1,2,5,6,7,0]
+y.sort()
+5. z = (2,3,4,5,6,7)
+a = (1,2,5,6,9)
+c=z+a
+
