@@ -1,0 +1,41 @@
+1. t=(3,2,'aman')
+len(t)
+
+2. t=(2,3,1)
+max(t)
+min(t)
+
+3.  t=(2,3,1)
+i=0
+for i in (len(t)-1):
+t[i]*t[i+1]
+ 
+4. set1 = (1,2,3,4,4)
+set2 = (2,5,7,3,5)
+set1 - set2   # diffrence b/w two sets
+set1^set2 # compare two sets
+print(set1 & set2) #printing the intersection of two sets
+
+5. dic={'Aman':10,'Shubham':6,'karan':8,'Parth':10,'Deepak':6,'kishan':8,'Vaibhav':10,'Shiva':6,'Piyush':8}
+
+6. dic={'Aman':10,'Shubham':6,'karan':8,'Parth':10,'Deepak':6,'kishan':8,'Vaibhav':10,'Shiva':6,'Piyush':8}
+   val=dic.values()
+val.sort()
+
+7. word = {'M':'','I':'','S':'','P':''}
+word.values('M')=0
+word.values('I')=0
+word.values('S')=0
+word.values('P')=0
+x=[M,I,S,S,I,S,S,I,P,P,I]
+if word.key('M') in x:
+word.values('M')+=1
+if word.key('I') in x:
+word.values('I')+=1
+if word.key('S') in x:
+word.values('S')+=1
+if word.key('P') in x:
+word.values('P')+=1
+
+
+
