@@ -1,0 +1,52 @@
+1. y= int (input("Enter the year: "))
+if y%4==0:
+print("Its a leap year !!")
+else:
+print("Its not a leap year ")
+
+2. l = int(input("Enter the length : "))
+  b = int(input("Enter the breadth : "))
+if l==b :
+print("Its a square dimensions !!")
+else:
+print("Its a rectangle !!")
+
+3. n1 = int(input("Enter the age of the first person : "))
+n2 =  int(input("Enter the age of the second person : "))
+n3 =  int(input("Enter the age of the third person : "))
+n = []
+n.append(n1)
+n.append(n2)
+n.append(n3)
+if max(n)==n1 and min(n)==n2:
+print("First person is the eldest person and second person is the youngest")
+else:
+print("First person is thee eldest and third person is the youngest")
+if max(n)==n2 and min(n)==n1:
+print("Second person is the eldest person and first person is the youngest")
+else max(n)==n2 and min(n)==n3:
+print("Second  person is the eldest person and third person is the youngest")
+if max(n)==n3 and min(n)==n1:
+print("Third person is the eldest person and first person is the youngest")
+else max(n)==n3 and min(n)==n2:
+print("Third  person is the eldest person and Second person is the youngest")
+
+4. points = int(input("Enter your points : "))
+if points>=1 and points <=50:
+print("Sorry !! No prize this time : )
+elif points >= 51 and points<=150:
+print("Congratultions! You won a Wooden Dog" )
+elif points>=151 and points<=180:
+print("Congratulations! You won a Book ")
+elif points>=181 and points<=200:
+print("Congratulations! You won Chocolates ")
+
+5. 
+q = int(input("Enter the quantity you purchased: "))
+if q*100 >= 1000:
+ print("You got a 10 percent discount on the purchase ,your total amount to be paid is : %d "%(q*100))
+else:
+ print("Your total amount to be paid is : %d "%(q*100))
+
+
+
