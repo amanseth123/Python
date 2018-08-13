@@ -1,0 +1,67 @@
+1. for i in range(1,10):
+y=int(input("Enter the number: "))
+print(y)
+
+2. f = 1
+while (f): print 'Infinite Loop struck !!'
+print "Good bye!"
+
+3. l=[]
+for i in range(0,5):
+  y=int(input("Enter the number : "))
+  l.insert(i,y)
+m=[]
+for i in range(0,5):
+  m.insert(i,y**2)
+
+print(m)
+
+4. myList = [ 4,'a', 'b', 'c', 1, 'd', 3,3.5,4.5]
+m=[]
+s=[]
+f=[]
+    for i in myList:
+      if type(i)==int:
+        m.append(i)
+      elif type(i)=="str":
+        s.append(i)
+       elif type(i) == 'float':
+        f.append(i)
+print(m,s,f)
+
+5. e=[]
+for i in range(1,101):
+if i%2==2:
+e.append(i)
+continue
+else:
+e.append(i)
+
+6. for i in range(1,4):
+for j in range(i):
+print("*" * j)
+
+
+7. dictionary = {'Aman' : 16, 'Suraj' : 19}
+age = raw_input("Provide age")
+for age1,name in dictionary:
+    if age1 == age:
+        name = dictionary[age1]
+        print name
+
+8. l=[] 
+ for i in range(1,10): 
+   n=int(input("Enter number: ",end=''))
+   l.append(n)
+ y=int(input("Enter number to delete: "))
+for i in range (len(l)):
+if y==l[i]:
+l[i].remove()
+else:
+continue
+
+
+
+
+
+
