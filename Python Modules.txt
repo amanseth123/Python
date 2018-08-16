@@ -1,0 +1,36 @@
+1. The tuple used for time in Python-based systems 
+
+2. import datetime
+now = datetime.datetime.now()
+print (now.strftime("%Y-%m-%d %H:%M:%S"))
+
+3. 
+import datetime
+now = datetime.datetime.now()
+y=now.strftime("%m")
+print(y)
+
+4. 
+import datetime
+now = datetime.datetime.now()
+y=now.strftime("%d")
+print(y)
+
+5. 
+import datetime
+y=datetime.datetime.strptime('11 01 2021','%d %m %Y').strftime('%d')
+print(y)
+
+6. import time;
+print(time.localtime())
+
+7. import math;
+print(math.factorial(3))
+
+8.
+import math;
+print(math.gcd(60,48))
+
+9. import os;
+print(os.environ)
+
