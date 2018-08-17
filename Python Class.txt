@@ -1,0 +1,83 @@
+1.  import math
+class circle():
+    def __init__(self,radius):
+        self.radius=radius
+    def area(self):
+        return math.pi*(self.radius**2)
+    def Circumference(self):
+        return 2*math.pi*self.radius
+obj=circle(5)
+print("Area of circle:",obj.area(),2)
+print("Circumference of circle:",obj.perimeter(),2)
+
+2. 
+class student():
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+    def display(self):
+         print ("Name : ", self.name,  ", Age", self.age)
+ 
+st1=student("Aman",19)
+st1.display()
+
+
+3. 
+class circle():
+    def __init__(self,T):
+        self.temp=T
+    def Cent(self):
+        print((self.temp - 32) * (5 / 9))
+    def Farenheit(self):
+        print((9 * self.temp) / (5 + 32))
+te=input("Enter the temperature(eg.25F,56F) : ")
+num_deg = int(te[:-1])
+type = te[-1]
+obj = circle(num_deg)
+if type.upper() == 'C':
+    obj.Farenheit()
+if type.upper() == 'F':
+    obj.Cent()
+
+4. 
+
+class MovieDetails():
+    def __init__(self,name,artist,year,ratings):
+        self.name=name
+        self.artist = artist
+        self.year  = year
+        self.ratings = ratings
+    def Display(self):
+        print(self.name,self.artist,self.year,self.ratings)
+    def Update(self):
+        self.name = "vaibhav"
+        self.year = 2017
+        print(self.name,self.artist,self.year,self.ratings)
+       
+
+obj = MovieDetails('Aman','Karan',2018,5)
+obj.Display()
+print("After some updation values are: ",end='')
+obj.Update()
+
+5. 
+class Expenditure():
+    def __init__(self,expenditure,savings):
+        self.ex=expenditure
+        self.savings = savings
+    def Display(self):
+        print(self.ex,self.savings)
+    def Total(self):
+        print(self.ex+self.savings)
+    
+       
+
+obj = Expenditure(200000,189000)
+print("Your expenditure and savings are : ",end='')
+obj.Display()
+print("Total Salary is: ",end='')
+obj.Total()
+
+
+
+
