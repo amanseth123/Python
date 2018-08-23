@@ -1,0 +1,21 @@
+1.
+Access Token: is an object that comprises of the security part of the API and contains all the auth details of the user 
+
+
+
+
+
+2.
+Google: 8.8.8.8
+Facebook: 69.63.176.13
+
+3.
+
+
+4.
+A library is a collection of functions / objects that serves one particular purpose. you could use a library in a variety of projects.
+An API is an interface for other programs to interact with your program or library  without having direct access.
+
+5.
+
+ 
