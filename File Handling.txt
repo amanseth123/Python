@@ -1,0 +1,54 @@
+1.
+with open("aman.txt","w") as f:
+  f.write("“Atticus said to Jem one day, “I’d rather you shot at tin cans in the backyard, but I know you’ll go after birds.
+Shoot all the blue jays you want, if you can hit ‘em, but remember it’s a sin to kill a mockingbird.”
+That was the only time I ever heard Atticus say it was a sin to do something, and I asked Miss Maudie about it.
+“Your father’s right,” she said. “Mockingbirds don’t do one thing except make music for us to enjoy.
+They don’t eat up people’s gardens, don’t nest in corn cribs, they don’t do one thing but sing their hearts out for us.
+That’s why it’s a sin to kill a mockingbird.” – Harper Lee, To Kill a Mockingbird")
+f.close()
+
+
+
+2.
+with open("aman.txt","r") as f:
+f.seek((len(f)-10),0,len(f))
+f.read(10)
+f.close()
+
+3.
+import collections
+
+wordcount = collections.Counter()
+with open("aman.txt") as file:
+    for line in file:
+        wordcount.update(line.split())
+
+for k,v in wordcount.iteritems():
+    print k, 
+
+4.
+with open("test.txt") as f:
+    with open("aman.txt", "w") as f1:
+        for line in f:
+            f1.write(line)
+
+5.
+with open('aman.txt') as fh1, open('test.txt') as fh2:
+    for line1, line2 in zip(fh1, fh2):
+        print(line1+line2)
+6.
+
+import random
+res=[]
+for j in range(1,11):
+        res.append(random.randint(start, end))\
+with open("aman.txt","w") as f:
+      for j in range(1,11):
+          f.write(res[j])
+f.read()
+
+with open("test.txt","w")as f1:
+    f1.write(sort(res))
+f1.read()
+
