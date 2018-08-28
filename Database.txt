@@ -1,0 +1,28 @@
+1.Create Database Books
+import MYSQL
+db = MYSQL.connect("localhost","aman","aman123","Books")
+cursor=db.cursor()
+cursor.execute("Create Table Books(BookId int NOT NULL,Title ID int ,Location varchar(20) NOT NULL,Genre varchar(1) NOT NULL))
+cursor.execute("Create Table Titles(Title ID int ,ISBN int NOT NULL,PublisherID int NOT NULL,Publisher Year varchar(20)))
+cursor.execute("Create Table Publishers(PublisherId int NOT NULL,Name ID varchar(20) ,Street Adress varchar(20) NOT NULL,ZipCode int NOT NULL))
+cursor.execute("Create Table ZipCode(ZipCodeId int NOT NULL,City varchar(20) ,State varchar(20) NOT NULL,ZipCode int NOT NULL))
+cursor.execute("Create Table Authors Title(AuthorTitleId int  ,AuthorID int NOT NULL,TitleId int NOT NULL))
+cursor.execute("Create Table Authors(AuthorID int ,FirstName varchar(20) ,MiddleName varchar(20) NOT NULL,LastName varchar(20) NOT NULL))
+db.stop()
+
+2.
+cursor .execute("Insert Into Books(BookId,Title ID,Location,Genre) Values(112,678,Jalandhar,M) 
+cursor .execute("Insert Into Titles(Title Id,ISBN,PublisherID) Values(223,670,6765)
+cursor .execute("Insert Into Publisher(PublisherId,Name ,Street Address,ZipCode) Values(112,'Aman',Jalandhar,221010) 
+cursor .execute("Insert Into ZipCode(ZipCodeId,City,State,ZipCode) Values(223412,'Jalandhar','Punjab',122345) 
+cursor .execute("Insert Into Authors Title(AuthorTitleId,Author ID,Title) Values(114,678,'Jalandhar') 
+cursor .execute("Insert Into Author(AuthorID,FirstName,MiddleName,LastName) Values(112,'Aman','Kumar','Singh')
+
+
+3.
+
+
+cursor.execute("Update Titles Set PublisherID=223")
+ print(cursor.fetchall())
+db.rollback()
+print(db.cursor())
