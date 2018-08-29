@@ -1,0 +1,53 @@
+1.
+from tkinter import *
+def hello():
+ root.destroy()
+root = Tk()
+Label(root,text = "Hello").grid(row=0)
+E = Entry(root,justify = "left")
+E.grid(row = 0,columnspan = 1)
+b=Button(root,bd=8,command = hello)
+2.
+from tkinter import *
+def hello():
+ print("Hello")
+root = Tk()
+Label(root,text = "Hello").grid(row=0)
+E = Entry(root,justify = "left")
+E.grid(row = 0,columnspan = 1)
+b=Button(root,bd=8,command = hello)
+3.
+from tkinter import *
+root=Tk()
+def update():
+  b.config(text="Loves Programming")
+f =Frame(root)
+f.pack()
+var  =StringVar()
+l = Label(f,text="Aman")
+l.pack()
+b = Button(f,command = update).pack()
+
+
+4.
+
+from tkinter import *
+root = Tk()
+def print():
+  global s
+  string  = s.get()
+  print(string)
+
+l = Entry(root)
+l.pack()
+b=Button(root,text="Press",command=print).pack(side='bottom')
+root.mainloop()
+
+
+
+
+
+
+
+
+
