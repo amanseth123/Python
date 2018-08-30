@@ -1,0 +1,27 @@
+1.and 2.
+
+from tkinter import *
+dict = {"Aman": 8778382272,"Vaibhav":09292923838,"Shubham":898763622,"Vijay":8998787666,"Anand":8996265433}
+def commando(dict):
+   dict.update({x:int(y)})
+root = Tk()
+root.title("Spam Words")
+scrollbar = Scrollbar(root)
+scrollbar.pack( side = RIGHT, fill = Y )
+
+label_1 = Label(root, text="Your Name: ", bg="#333333", fg="white")
+label_2 = Label(root, text="Your Number: ", bg="#333333", fg="white")
+mylist = Listbox(root, yscrollcommand = scrollbar.set )
+for line in range(len(dict)):
+   mylist.insert(END, str(dict.key(line)) + int(dict.value(line)))
+entry_1 = Entry(root, textvariable=x)
+entry_2 = Entry(root, textvariable=y)
+but = Button(root, text="Execute", bg="#333333", fg="white", command=commando)
+but.grid(row=5, column=0)
+label_1.grid(row=1)
+label_2.grid(row=3)
+
+root.mainloop()
+
+
+
