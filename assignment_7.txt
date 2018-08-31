@@ -1,0 +1,35 @@
+1.
+import numpy as np
+np.random.randint(1,100,size=10)
+print((np.random.randint(1,100,size=10)).mean())
+
+2
+import numpy as np
+np.random.randint(1,100,size=20)
+print((np.random.randint(1,100,size=10)).var())
+print((np.random.randint(1,100,size=10)).std())
+
+3.
+import numpy as np
+import math
+m = np.random.randint(1,100,size = 200)
+m.shape(10,20)
+n = np.random.randint(1,100,size = 500)
+n.shape(20,25)
+
+print(np.dot(m,n))
+print((np.dot(m,n)).sum())
+
+
+4
+import numpy as np
+a = no.array([1,2,3,4,5,6,7,8,9,11])
+y=a.shape(10,1)
+def f(y):
+z=[]
+z.shape(10,1)
+for i in range(10):
+    z[i][0] = z[i][0].append(1+(1/np.exp(y[i][0]))
+print(z)
+
+
